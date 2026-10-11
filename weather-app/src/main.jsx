@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Required for dropdowns/modals
-import {QueryClint ,QueryClientProvider} from '@tanstack/react-query'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './index.css'
 import App from './App.jsx'
 
