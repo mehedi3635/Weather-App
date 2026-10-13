@@ -7,7 +7,7 @@ async function getWeather(city) {
     if (!response.ok) {
         throw new Error('Failed to fetch weather data');
     }
-    const data=response.json();
+    const data = await response.json();
     return ({
         city: data.name,
         temperature: data.main.temp,

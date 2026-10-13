@@ -1,16 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ Weather App
 
-Currently, two official plugins are available:
+A responsive weather application built with React and OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Search weather by city name
+- Display current temperature in Celsius
+- Show weather conditions and icons
+- Loading and error handling
+- Responsive user interface
+- Data fetching with TanStack React Query
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- Bootstrap
+- TanStack React Query
+- OpenWeatherMap API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd weather-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the project root:
+
+   ```env
+   VITE_WEATHER_API_KEY=your_api_key_here
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Build
+
+```bash
+npm run build
+```
+
+## API
+
+Weather data is provided by
+[OpenWeatherMap](https://openweathermap.org/api).
+
+## Author
+
+Mehedi Hasan
